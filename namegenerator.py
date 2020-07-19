@@ -1,35 +1,40 @@
-from tkinter import *
+import tkinter as tk
 import random
-import os
 
-def restartProgram():
-    os.execl(sys.executable, sys.executable, *sys.argv)
+class Application(tk.Frame):
+    def __init__(self, master=None):
+        super().__init__(master)
+        self.master = master
+        self.pack()
+        self.create_widgets()
 
-def genFirstAndLast():
-    global firstNameDone, lastNameDone
-    with open('first-names.txt') as f:
-        firstName = f.read().splitlines()
-    firstNameDone = random.choice(firstName)
-    with open('last-names.txt') as f:
-        lastName = f.read().splitlines()
-    lastNameDone = random.choice(lastName)
+    @staticmethod
+    def genName(input):
+        global finishedName
+        with open('first-names.txt') as f:
+            firstName = f.read().splitlines()
+        firstNameDone = random.choice(firstName)
+        with open('last-names.txt') as f:
+            lastName = f.read().splitlines()
+        lastNameDone = random.choice(lastName)
+        finishedName = firstNameDone + " " + lastNameDone
+        return finishedName
 
-def buildWindow():
-    window = Tk()
-    window.title("Name Generator")
-    window.geometry("300x50")
-    #Labels
-    lblFirstName = Label(window, text=firstNameDone)
-    lblFirstName.grid(column=0, row=1)
-    lblLastName = Label(window, text=lastNameDone)
-    lblLastName.grid(column=1, row=1)
-    #Buttons
-    btnNewName = Button(window, text="New Name", command=restartProgram)
-    btnNewName.grid(column=0, row=100)
-    window.mainloop()
+    def regenName(self):
+        self.displayText = tk.Text(self.master, height=2, width =32)
+        self.displayText.insert(tk.END, self.genName(""))
+        self.displayText.pack()
 
-def main():
-    genFirstAndLast()
-    buildWindow()
+    def create_widgets(self):
 
-main()
+        self.genButton = tk.Button(self)
+        self.genButton['text'] = "Generate Name"
+        self.genButton['command'] = self.regenName
+        self.genButton.pack(side='top')
+
+        self.quit = tk.Button(self, text='QUIT', fg='red', command=self.master.destroy)
+        self.quit.pack(side='bottom')
+
+root = tk.Tk()
+app = Application(master=root)
+app.mainloop()
