@@ -1,4 +1,3 @@
-A
 Abbot
 Abbott
 Abdy
@@ -185,7 +184,6 @@ Aycock
 Ayres
 Ayrton
 Ayton
-B
 Babbett
 Babbington
 Babbitt
@@ -259,7 +257,7 @@ Barlow
 Barnard
 Barnes
 Barnes-austin
-Barnes baines?
+Baines
 Barnett
 Barnhill
 Barns
@@ -854,7 +852,6 @@ Byres
 Byrne
 Byrom
 Byron
-C
 Cabaniss
 Cadell
 Cadman
@@ -939,7 +936,6 @@ Carrie
 Carrier
 Carroll
 Carruthers
-Carruthers?
 Carson
 Carter
 Carteret
@@ -1125,7 +1121,6 @@ Coddington
 Cofel
 Coffman
 Coggan
-Coggan?
 Coggins
 Cogguns
 Coghill
@@ -1394,7 +1389,6 @@ Cuthbert
 Cutler
 Cutts
 Cyther
-D
 D'abzac
 D'arcy
 D'oyly
@@ -1442,7 +1436,6 @@ Davidson
 Davie
 Davies
 Davis
-Davis?
 Davoren
 Dawes
 Dawson
@@ -1704,7 +1697,6 @@ Dyke
 Dyneley
 Dyson
 Dzwonkowski
-E
 Earberry
 Earbery
 Eardley
@@ -1857,7 +1849,6 @@ Ewson
 Exley
 Eyles
 Eyre
-F
 Face
 Fagan
 Fahey
@@ -2107,7 +2098,6 @@ Fyfe
 Fyffe
 Fyle
 Fyshe
-G
 Gabbett
 Gabriel
 Gaffney
@@ -2379,7 +2369,6 @@ Grier
 Grierson
 Grieve
 Griffin
-Griffin?
 Griffith
 Griffiths
 Griggs
@@ -2424,7 +2413,6 @@ Guy
 Gwenn
 Gwynne
 Gylden
-H
 Haas
 Hackson
 Haddock
@@ -2500,7 +2488,6 @@ Hannon
 Hanover
 Hanson
 Haoos
-Har?
 Harbord
 Harborough
 Harbuck
@@ -2935,10 +2922,7 @@ Hynd
 Hyndman
 Hynes
 Hyslop
-Hyslop or hyslop
-Hyslop?
 Hyson
-I
 Ibbotson
 Ikerrin
 Ilbery
@@ -2956,7 +2940,7 @@ Ingham
 Ingins
 Ingles
 Inglis
-Ingold?
+Ingold
 Ingram
 Inman
 Innes
@@ -2984,7 +2968,6 @@ Ison
 Israel
 Ives
 Iveson
-J
 Jack
 Jacklin
 Jackman
@@ -3053,13 +3036,11 @@ Johnstone
 Jolley
 Jolly
 Jones
-Jones?
 Jordan
 Joseph
 Jowitt
 Joy
 Joynes
-Jr
 Jubb
 Jubb
 Judd
@@ -3067,10 +3048,6 @@ Judge
 Judith
 Judson
 Jukes
-Julia
-Jump
-Justice
-K
 Kallquiet
 Kane
 Kapur
@@ -3113,7 +3090,6 @@ Kemmis-betty
 Kemp
 Kempsey
 Kendal
-Kendal or greenwood
 Kendall
 Kendell
 Kendrick
@@ -3207,7 +3183,6 @@ Krueger
 Kurtz
 Kyle
 Kyngdon
-L
 L'estrange
 La franchi
 La manche
@@ -3351,7 +3326,7 @@ Lemon
 Lemons
 Lenaghen
 Lenard
-Lendon?
+Lendon
 Leng
 Lengden
 Lenhardt
@@ -3534,7 +3509,6 @@ Lyon
 Lyons
 Lyster
 Lytle
-M
 Maberley
 Macalister
 Macallister
@@ -4017,8 +3991,7 @@ Molde
 Moltz
 Monet
 Money
-Money-coutts
-Money?
+Moneicouts
 Monger
 Monk
 Monkhouse
@@ -4129,7 +4102,6 @@ Musson
 Muxlow
 Myers
 Mytton
-N
 Nabors
 Naddox
 Nance
@@ -4250,7 +4222,6 @@ Nunn
 Nutt
 Nuttall
 Nyberg
-O
 O'brien
 O'connor
 O'day
@@ -4352,7 +4323,6 @@ Owen
 Owen-swaffield
 Owens
 Oxley
-P
 Pace
 Pack
 Packard
@@ -4433,7 +4403,6 @@ Peard
 Pearl
 Pearse
 Pearson
-Pearson?
 Pease
 Peasley
 Peat
@@ -4664,14 +4633,12 @@ Putnam
 Pybus
 Pye
 Pym
-Q
 Quail
 Quaintance
 Queem
 Quinn
 Quirk
 Quixley
-R
 Rabbitts
 Race
 Rachel
@@ -4964,8 +4931,6 @@ Ryland
 Ryle
 Ryrie
 Ryther
-S
-S-c gotha
 Sachsen-coburg-saalfeld
 Sachsen-gotha-altenburg
 Sackett
@@ -5201,7 +5166,6 @@ Simmons
 Simms
 Simons
 Simpson
-Simpson?
 Sims
 Sims or penn
 Sinclair
@@ -5255,7 +5219,6 @@ Smellie
 Smillie
 Smith
 Smith-rense
-Smith?
 Smithies
 Smithson
 Smorthwaite
@@ -5525,7 +5488,6 @@ Symes
 Symington
 Symmons
 Symonds
-T
 Tabor
 Taggart
 Tailor
@@ -5749,7 +5711,6 @@ Tunningley
 Tunstall
 Tupman
 Tureman
-Turk? carr?
 Turkwine
 Turnbo
 Turnbull
@@ -5781,7 +5742,6 @@ Tylston
 Tymm
 Tyrrell
 Tyson
-U
 Udal
 Udall
 Ugill
@@ -5808,7 +5768,6 @@ Utley
 Utten
 Uttley
 Uzal
-V
 Vaill
 Vaines
 Valentine
@@ -5876,7 +5835,6 @@ Von brandenburg-ansbach
 Von braunschweig-luneburg
 Von nassau-dillenberg
 Vraithwaite
-W
 Wacher
 Wack
 Waddell
@@ -6265,7 +6223,6 @@ Wyndham
 Wynn
 Wynter
 Wyper
-Y
 Yair
 Yarbrough
 Yardley
@@ -6293,7 +6250,6 @@ Yuil
 Yuile
 Yuille
 Yule
-Z
 Zeiler
 Zissem
 Zunkel
