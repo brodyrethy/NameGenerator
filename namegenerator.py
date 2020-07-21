@@ -21,25 +21,28 @@ class Application(tk.Frame):
         return finishedName
 
     def displayName(self):
-        self.displayText = tk.Text(self.displayFrame, height=2, width =32)
+        self.displayText = tk.Text(self.textFrame, height=2, width =32)
         self.displayText.insert(tk.END, self.genName(""))
         self.displayText.pack()
 
     def create_widgets(self):
-        self.genButton = tk.Button(self, text='Generate Name', command=self.displayName)
-        self.genButton.pack(side='top')
+        self.buttonFrame=tk.Frame()
+        self.buttonFrame.pack(padx=5,pady=10)
 
-        self.quit = tk.Button(self, text='QUIT', fg='red', command=self.master.destroy)
-        self.quit.pack(side='bottom')
+        self.textFrame =tk.Frame()
+        self.textFrame.pack()
 
-        self.displayFrame =tk.Frame()
-        self.displayFrame.pack()
+        self.genButton = tk.Button(self.buttonFrame, text='Generate Name', command=self.displayName)
+        self.genButton.pack(side='left', padx=5)
 
-        self.clear = tk.Button(self, text='Clear', command=self.clearBox)
-        self.clear.pack(side='bottom')
+        self.quit = tk.Button(self.buttonFrame, text='QUIT', fg='red', command=self.master.destroy)
+        self.quit.pack(side='right', padx=5)
+
+        self.clear = tk.Button(self.buttonFrame, text='Clear', command=self.clearBox)
+        self.clear.pack(padx=5)
 
     def clearBox(self):
-        for widget in self.displayFrame.winfo_children():
+        for widget in self.textFrame.winfo_children():
             widget.pack_forget()
             widget.destroy()
 
