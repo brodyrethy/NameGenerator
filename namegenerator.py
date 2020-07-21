@@ -20,21 +20,30 @@ class Application(tk.Frame):
         finishedName = firstNameDone + " " + lastNameDone
         return finishedName
 
-    def regenName(self):
-        self.displayText = tk.Text(self.master, height=2, width =32)
+    def displayName(self):
+        self.displayText = tk.Text(self.displayFrame, height=2, width =32)
         self.displayText.insert(tk.END, self.genName(""))
         self.displayText.pack()
 
     def create_widgets(self):
-
-        self.genButton = tk.Button(self)
-        self.genButton['text'] = "Generate Name"
-        self.genButton['command'] = self.regenName
+        self.genButton = tk.Button(self, text='Generate Name', command=self.displayName)
         self.genButton.pack(side='top')
 
         self.quit = tk.Button(self, text='QUIT', fg='red', command=self.master.destroy)
         self.quit.pack(side='bottom')
 
+        self.displayFrame =tk.Frame()
+        self.displayFrame.pack()
+
+        self.clear = tk.Button(self, text='Clear', command=self.clearBox)
+        self.clear.pack(side='bottom')
+
+    def clearBox(self):
+        for widget in self.displayFrame.winfo_children():
+            widget.pack_forget()
+            widget.destroy()
+
 root = tk.Tk()
+root.geometry('{}x{}'.format(250,320))
 app = Application(master=root)
 app.mainloop()
